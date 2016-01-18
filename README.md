@@ -32,7 +32,7 @@ Checks if a given url is a local url or not.
 - **String** `url`: The local/remote url.
 
 #### Return
-- **Boolean** `true` if the url is local, `false` otherwise.
+- **Boolean** `null` if the url is not a string, `true` if the url is local, `false` otherwise.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
