@@ -26,5 +26,13 @@
   "homepage": "https://github.com/IonicaBizau/url-local#readme",
   "dependencies": {
     "parse-url": "^1.3.0"
+  },
+  "devDependencies": {},
+  "blah": {
+    "related": {
+      "ul": [
+        "[`url-remote`](https://github.com/IonicaBizau/url-remote)–Checks if a given url is a remote url or not."
+      ]
+    }
   }
 }

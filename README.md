@@ -40,6 +40,12 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+ - [`url-remote`](https://github.com/IonicaBizau/url-remote#readme)
+
+## Related
+
+ - [`url-remote`](https://github.com/IonicaBizau/url-remote)–Checks if a given url is a remote url or not.
+
 ## License
 
 [MIT][license] © [Ionică Bizău][website]
