@@ -1,14 +1,18 @@
+
 # url-local [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/url-local.svg)](https://www.npmjs.com/package/url-local) [![Downloads](https://img.shields.io/npm/dt/url-local.svg)](https://www.npmjs.com/package/url-local) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Checks if a given url is a local url or not.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save url-local
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const isLocal = require("url-local");
@@ -23,7 +27,8 @@ console.log(isLocal("http://ionicabizau.net"));
 // false
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `urlLocal(url)`
 Checks if a given url is a local url or not.
@@ -34,19 +39,23 @@ Checks if a given url is a local url or not.
 #### Return
 - **Boolean** `null` if the url is not a string, `true` if the url is local, `false` otherwise.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`url-remote`](https://github.com/IonicaBizau/url-remote#readme)
 
-## Related
+ - [`url-remote`](https://github.com/IonicaBizau/url-remote#readme)—Checks if a given url is a remote url or not.
+## :sparkles: Related
 
  - [`url-remote`](https://github.com/IonicaBizau/url-remote)–Checks if a given url is a remote url or not.
 
-## License
+
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
