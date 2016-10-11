@@ -29,11 +29,9 @@
   },
   "devDependencies": {},
   "blah": {
-    "related": {
-      "ul": [
-        "[`url-remote`](https://github.com/IonicaBizau/url-remote)–Checks if a given url is a remote url or not."
-      ]
-    }
+    "related": [
+      "url-remote"
+    ]
   },
   "files": [
     "bin/",
