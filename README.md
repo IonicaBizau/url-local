@@ -1,14 +1,20 @@
-# url-local [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/url-local.svg)](https://www.npmjs.com/package/url-local) [![Downloads](https://img.shields.io/npm/dt/url-local.svg)](https://www.npmjs.com/package/url-local) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# url-local
+
+ [![Patreon](https://img.shields.io/badge/Support%20me%20on-Patreon-%23e6461a.svg)][patreon] [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/url-local.svg)](https://www.npmjs.com/package/url-local) [![Downloads](https://img.shields.io/npm/dt/url-local.svg)](https://www.npmjs.com/package/url-local) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Checks if a given url is a local url or not.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save url-local
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const isLocal = require("url-local");
@@ -23,7 +29,8 @@ console.log(isLocal("http://ionicabizau.net"));
 // false
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `urlLocal(url)`
 Checks if a given url is a local url or not.
@@ -34,22 +41,39 @@ Checks if a given url is a local url or not.
 #### Return
 - **Boolean** `null` if the url is not a string, `true` if the url is local, `false` otherwise.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+
+## :moneybag: Donations
+
+Another way to support the development of my open-source modules is
+to [set up a recurring donation, via Patreon][patreon]. :rocket:
+
+[PayPal donations][paypal-donations] are appreciated too! Each dollar helps.
+
+Thanks! :heart:
+
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`url-remote`](https://github.com/IonicaBizau/url-remote#readme)
 
-## Related
+ - [`native-zip`](https://npmjs.com/package/native-zip) (by kardel)—app内H5应用本地化打包工具，支持增量打包，全量打包
+ - [`url-remote`](https://github.com/IonicaBizau/url-remote#readme)—Checks if a given url is a remote url or not.
 
- - [`url-remote`](https://github.com/IonicaBizau/url-remote)–Checks if a given url is a remote url or not.
+## :sparkles: Related
 
-## License
+ - [`url-remote`](https://github.com/IonicaBizau/url-remote#readme)—Checks if a given url is a remote url or not.
+
+
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
+[patreon]: https://www.patreon.com/ionicabizau
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
