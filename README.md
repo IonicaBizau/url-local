@@ -29,6 +29,15 @@ console.log(isLocal("http://ionicabizau.net"));
 // false
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 ## :memo: Documentation
 
 
@@ -74,6 +83,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 ## :sparkles: Related
 
  - [`url-remote`](https://github.com/IonicaBizau/url-remote#readme)—Checks if a given url is a remote url or not.
+
 
 
 ## :scroll: License
