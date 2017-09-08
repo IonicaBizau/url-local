@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Checks if a given url is a local url or not.
 
 #### Params
+
 - **String** `url`: The local/remote url.
 
 #### Return
