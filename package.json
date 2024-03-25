@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/url-local#readme",
   "dependencies": {
-    "parse-url": "^8.1.0"
+    "parse-url": "^9.0.1"
   },
   "blah": {
     "related": [

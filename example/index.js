@@ -8,3 +8,6 @@ console.log(isLocal("file://path/to/some/file"));
 
 console.log(isLocal("http://ionicabizau.net"));
 // false
+
+console.log(isLocal("C:\\Users\\IonicaBizau\\Desktop"));
+// true
