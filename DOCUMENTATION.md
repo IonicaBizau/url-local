@@ -10,5 +10,5 @@ Checks if a given url is a local url or not.
 - **String** `url`: The local/remote url.
 
 #### Return
-- **Boolean** `null` if the url is not a string, `true` if the url is local, `false` otherwise.
+- **Boolean|null** `null` if the url is not a string, `true` if the url is local, `false` otherwise.
 

@@ -84,7 +84,11 @@ console.log(isLocal("file://path/to/some/file"));
 
 console.log(isLocal("http://ionicabizau.net"));
 // false
+
+console.log(isLocal("C:\\Users\\IonicaBizau\\Desktop"));
+// true
 ```
+
 
 
 
@@ -110,6 +114,8 @@ There are few ways to get help:
 
 
 
+
+
 ## :memo: Documentation
 
 
@@ -121,7 +127,7 @@ Checks if a given url is a local url or not.
 - **String** `url`: The local/remote url.
 
 #### Return
-- **Boolean** `null` if the url is not a string, `true` if the url is local, `false` otherwise.
+- **Boolean|null** `null` if the url is not a string, `true` if the url is local, `false` otherwise.
 
 
 
@@ -176,9 +182,9 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `url-remote`
- - `native-zip`
  - `metalsmith-lazyloader`
+ - `native-zip`
+ - `url-remote`
 
 
 
